@@ -11,12 +11,18 @@ import GuessList from './guess-list';
 import './game.css';
 
 export default function Game() {
+
+  // const feedback = <Feedback />
+  // const input = <Input />
+  // const counter = <Counter />
+  // const guessList = <GuessList />
+
   return (
         <section className="game">
-          {Feedback}
-          {Input}
-          {Counter}
-          {GuessList}
+          <Feedback />
+          <Input />
+          <Counter />
+          <GuessList />
         </section>
   );
 }
